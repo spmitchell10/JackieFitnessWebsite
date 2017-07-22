@@ -1,0 +1,210 @@
+body {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Raleway', sans-serif; }
+
+.homeBG {
+  padding: 0; }
+
+#mainIMG {
+  width: 100%;
+  padding: 0;
+  height: 1200px;
+  background-image: url("https://s3.amazonaws.com/testimages1234/1500667615051.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.signUP {
+  background: rgba(78, 205, 196, 0.4);
+  height: 110px;
+  padding-top: 40px;
+  margin-top: -110px;
+  width: 100%; }
+
+.onlineCOACH {
+  height: 1000px;
+  background-image: url("https://s3.amazonaws.com/testimages1234/1500667615051.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  left: 0;
+  right: 0;
+  margin: 0px auto;
+  display: block; }
+  .onlineCOACH h1 {
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20px; }
+  .onlineCOACH ul {
+    text-align: center; }
+    .onlineCOACH ul li {
+      text-align: center; }
+
+.homePIC {
+  text-align: center;
+  padding: 0; }
+
+.trainWJT {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0px auto;
+  margin-bottom: 18%;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 70px; }
+
+.threeIMG {
+  margin-top: 100px;
+  z-index: 9; }
+  .threeIMG img {
+    width: 100%;
+    margin-bottom: -50px; }
+  .threeIMG h2 {
+    text-align: center;
+    margin: 0;
+    color: white; }
+
+.btn {
+  width: 130px;
+  text-decoration: none;
+  background: rgba(78, 205, 196, 0.4); }
+
+input {
+  opacity: .7; }
+
+.logo {
+  font-family: 'Abril Fatface', cursive;
+  text-align: center; }
+
+.nav {
+  z-index: 10;
+  position: fixed;
+  font-family: 'Raleway', sans-serif;
+  background: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: .2s ease-in-out;
+  transition-duration: .2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial; }
+
+#header {
+  border-bottom: 5px solid #4ECDC4; }
+
+.joker {
+  text-align: center;
+  padding-top: 20px; }
+
+.socialMedia {
+  font-size: 25px;
+  padding-top: 25px;
+  float: right;
+  margin-left: 10px; }
+
+.headroom {
+  will-change: transform;
+  transition: transform .3s ease-in-out; }
+
+.headroom--pinned {
+  transform: translateY(0%); }
+
+.headroom--unpinned {
+  transform: translateY(-100%); }
+
+.hamburgerMenu {
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-top: 27px;
+  margin-right: 60px;
+  width: 30px;
+  height: 19px;
+  cursor: pointer; }
+
+.bar, .bar:after, .bar:before {
+  width: 30px;
+  height: 3px; }
+
+.bar {
+  position: relative;
+  transform: translateY(8px);
+  background: black;
+  transition: all 0ms 200ms; }
+  .bar.animate {
+    background: rgba(255, 255, 255, 0); }
+
+.bar:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 8px;
+  background: black;
+  transition: bottom 200ms 200ms cubic-bezier(0.23, 1, 0.32, 1), transform 200ms cubic-bezier(0.23, 1, 0.32, 1); }
+
+.bar:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  background: black;
+  transition: top 200ms 200ms cubic-bezier(0.23, 1, 0.32, 1), transform 200ms cubic-bezier(0.23, 1, 0.32, 1); }
+
+.bar.animate:after {
+  top: 0;
+  background: white;
+  transform: rotate(45deg);
+  transition: top 200ms cubic-bezier(0.23, 1, 0.32, 1), transform 200ms 200ms cubic-bezier(0.23, 1, 0.32, 1); }
+
+.bar.animate:before {
+  bottom: 0;
+  background: white;
+  transform: rotate(-45deg);
+  transition: bottom 200ms cubic-bezier(0.23, 1, 0.32, 1), transform 200ms 200ms cubic-bezier(0.23, 1, 0.32, 1); }
+
+.hiddenMenu {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: #292F36;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  z-index: 999;
+  color: white;
+  text-align: center; }
+  .hiddenMenu h4 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    cursor: pointer; }
+  .hiddenMenu h4:hover {
+    color: #4ECDC4;
+    transition: all .4s ease; }
+  .hiddenMenu .socialMedia {
+    float: none;
+    font-size: 40px;
+    padding-top: 0;
+    color: white;
+    text-decoration: none; }
+
+.paddingTop {
+  padding-top: 80px; }
+
+.hiddenMenu {
+  transition: .3s ease-in-out;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial; }
+
+.navMenuHidden {
+  transform: translateY(-115%) !important; }
+
+.navMenuVisible {
+  transform: translateY(0%); }

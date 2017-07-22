@@ -1,0 +1,54 @@
+<header data-headroom id="header" class="container-fluid headroom nav">
+    <div class="row topGreyRow">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="col-md-12 col-md-offset-1">
+                <div class="col-md-2 navMenu Home  navMenuPortfolio hidden-sm hidden-xs" ng-class="{active:isActive('/')}">
+                    <h4 class="joker" ui-sref='home'>Home</h4>
+                </div>
+                <div class="col-md-2  navMenu About hidden-sm hidden-xs" ng-class="{active:isActive('/about')}">
+                    <h4 class="joker" ui-sref='about'>About Me</h4>
+                </div>
+                <div class="col-md-2 col-sm-6">
+                    <h1 ui-sref='home' class="logo">J<a style="color:#4ECDC4; text-decoration: none">T</a>Fitness</h1>
+                </div>
+                <div class="col-md-2 navMenu OnlineCoaching hidden-sm hidden-xs" ng-class="{active:isActive('/contact')}">
+                    <h4 class="joker" ui-sref='contact'>Online Coaching</h4>
+                </div>
+                <div class="col-md-2 navMenu Contact hidden-sm hidden-xs" ng-class="{active:isActive('/resume')}">
+                    <h4 class="joker" ui-sref='resume'>Contact</h4>
+                </div>
+                <!-- <div class="col-md-2 hidden-sm hidden-xs">
+                    <a class="fa fa-twitter-square socialMedia" href="https://twitter.com/spmitchell_" aria-hidden="true"></a>
+                    <a class="fa fa-linkedin-square socialMedia" href="https://www.linkedin.com/in/stephen-mitchell-2b7a33bb/" aria-hidden="true"></a>
+                    <a class="fa fa-github socialMedia" href="https://github.com/spmitchell10" aria-hidden="true"></a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    </header>
+    <div class="hamburgerMenu hidden-md hidden-lg">
+        <div class="bar"></div>
+    </div>
+    <div class="container-fluid hidden-md hidden-lg hiddenMenu navMenuHidden navMenuVisible">
+        <div class="row hiddenMenuRow">
+            <div class="col-md-12">
+                <div class="col-md-2 paddingTop" ng-class="{activeMini:isActive('/')}">
+                    <h4 ui-sref='home'>Home</h4>
+                </div>
+                <div class="col-md-2" ng-class="{activeMini:isActive('/about')}">
+                    <h4 ui-sref='about'>About Me</h4>
+                </div>
+                <div class="col-md-2" ng-class="{activeMini:isActive('/onlinecoaching')}">
+                    <h4 ui-sref='contact'>Online Coaching</h4>
+                </div>
+                <div class="col-md-2" ng-class="{activeMini:isActive('/contact')}">
+                    <h4 ui-sref='resume'>Contact</h4>
+                </div>
+                <div class="col-md-2">
+                    <a class="fa fa-github socialMedia" href="https://github.com/spmitchell10" aria-hidden="true"></a>
+                    <a class="fa fa-linkedin-square socialMedia" href="https://www.linkedin.com/in/stephen-mitchell-2b7a33bb/" aria-hidden="true"></a>
+                    <a class="fa fa-twitter-square socialMedia" href="https://twitter.com/spmitchell_" aria-hidden="true"></a>
+                </div>
+            </div>
+        </div>
+    </div>
