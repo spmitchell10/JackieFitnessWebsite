@@ -23,75 +23,20 @@
                 return route === $location.path();
             }
 
-            //Marvel Hover
+           
 
-            $('.marvelSite').mouseover(function() {
-                  $('.marvelPop').removeClass("marvelPopHidden");
+            $(document).ready(function() {
+                var $win = $(window);
+
+                $('div.background').each(function() {
+                    var scroll_speed = 3;
+                    var $this = $(this);
+                    $(window).scroll(function() {
+                        var bgScroll = -(($win.scrollTop() - $this.offset().top) / scroll_speed);
+                        var bgPosition = 'center ' + bgScroll + 'px';
+                        $this.css({ backgroundPosition: bgPosition });
+                    });
                 });
-
-            $('.marvelSite').mouseout(function() {
-                  $('.marvelPop').addClass("marvelPopHidden");
-                });
-
-
-            //JamSesh Hover
-
-            $('.jamSite').mouseover(function() {
-                  $('.jamPop').removeClass("jamPopHidden");
-                });
-
-            $('.jamSite').mouseout(function() {
-                  $('.jamPop').addClass("jamPopHidden");
-                });
-
-            //todo Hover
-
-            $('.todoSite').mouseover(function() {
-                  $('.todoPop').removeClass("todoPopHidden");
-                });
-
-            $('.todoSite').mouseout(function() {
-                  $('.todoPop').addClass("todoPopHidden");
-                });
-
-            //Shopular Hover
-
-            $('.shopularSite').mouseover(function() {
-                  $('.shopularPop').removeClass("shopularPopHidden");
-                });
-
-            $('.shopularSite').mouseout(function() {
-                  $('.shopularPop').addClass("shopularPopHidden");
-                });
-
-            //Insta Hover
-
-            $('.instagramSite').mouseover(function() {
-                  $('.instagramPop').removeClass("instagramPopHidden");
-                });
-
-            $('.instagramSite').mouseout(function() {
-                  $('.instagramPop').addClass("instagramPopHidden");
-                });
-
-            //Blog Hover
-
-            $('.blogSite').mouseover(function() {
-                  $('.blogPop').removeClass("blogPopHidden");
-                });
-
-            $('.blogSite').mouseout(function() {
-                  $('.blogPop').addClass("blogPopHidden");
-                });
-
-
-            
-
-
-
-
-
-
+            })
         })
-
-})();
+    })();

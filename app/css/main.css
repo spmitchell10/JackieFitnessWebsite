@@ -8,23 +8,31 @@ body {
 .homeBG {
   padding: 0; }
 
-#mainIMG {
+.background {
   width: 100%;
   padding: 0;
-  height: 1000px;
-  background-image: url("https://scontent-ort2-1.xx.fbcdn.net/v/t31.0-8/20232894_1706151719414458_7491769377916852787_o.jpg?oh=c4827c1d16a10806df02519c0f85e3d6&oe=59ECD5A8");
+  height: 100vh;
+  background-image: url("../images/frontIMG.JPG");
   background-attachment: fixed;
+  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background-repeat: no-repeat; }
 
 .signUP {
-  background: rgba(78, 205, 196, 0.4);
+  background: rgba(22, 110, 83, 0.5);
   padding-top: 40px;
   padding-bottom: 20px;
   margin-top: -109px;
   min-height: 109px;
   width: 100%; }
+
+.btn {
+  width: 130px;
+  text-decoration: none;
+  background: #166e53; }
+
+input {
+  opacity: .7; }
 
 @media screen and (max-width: 992px) {
   .signUP {
@@ -34,23 +42,24 @@ body {
     margin-top: 40px;
     width: 100%; } }
 
-.onlineCOACH {
-  height: 1000px;
-  background-image: url("https://s3.amazonaws.com/testimages1234/1500667615051.jpg");
+.background2 {
+  height: 800px;
+  background-image: url("../images/middleIMG2.JPG");
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   left: 0;
   right: 0;
   margin: 0px auto;
   display: block; }
-  .onlineCOACH h1 {
+  .background2 h1 {
     font-size: 70px;
     text-align: center;
     padding-top: 20px; }
-  .onlineCOACH ul {
+  .background2 ul {
     text-align: center; }
-    .onlineCOACH ul li {
+    .background2 ul li {
       text-align: center; }
 
 .homePIC {
@@ -74,19 +83,11 @@ body {
   z-index: 9; }
   .threeIMG img {
     width: 100%;
-    margin-bottom: -50px; }
+    margin-bottom: 50px; }
   .threeIMG h2 {
     text-align: center;
     margin: 0;
     color: white; }
-
-.btn {
-  width: 130px;
-  text-decoration: none;
-  background: rgba(78, 205, 196, 0.4); }
-
-input {
-  opacity: .8; }
 
 .logo {
   font-family: 'Abril Fatface', cursive;
