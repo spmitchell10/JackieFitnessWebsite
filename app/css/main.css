@@ -3,7 +3,7 @@ body {
   height: 100%;
   min-height: 100%;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Roboto', sans-serif; }
 
 .homeBG {
   padding: 0; }
@@ -12,7 +12,7 @@ body {
   width: 100%;
   padding: 0;
   height: 100vh;
-  background-image: url("../images/frontIMG.JPG");
+  background-image: url("../images/frontIMG2.JPG");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -49,6 +49,7 @@ input {
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
+  z-index: -1;
   left: 0;
   right: 0;
   margin: 0px auto;
@@ -79,15 +80,106 @@ input {
   font-size: 70px; }
 
 .threeIMG {
-  margin-top: 100px;
+  margin-top: 50px;
   z-index: 9; }
   .threeIMG img {
     width: 100%;
     margin-bottom: 50px; }
-  .threeIMG h2 {
-    text-align: center;
-    margin: 0;
-    color: white; }
+  .threeIMG h3, .threeIMG div, .threeIMG p {
+    color: white;
+    text-align: center; }
+
+.header-underscoreHome {
+  width: 40px;
+  height: 1px;
+  background: white;
+  margin-bottom: 10px;
+  margin-top: 10px; }
+
+.jamPop {
+  transition: .3s ease-in-out;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial;
+  display: none;
+  position: absolute;
+  top: 0;
+  padding-top: 10%;
+  padding-left: 10px;
+  width: calc(100% - 30px);
+  height: calc(100% - 50px);
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer; }
+
+.jamPopHidden {
+  transform: translateY(-100%) !important; }
+
+.jamPopVisible {
+  display: block;
+  transform: translateY(0%); }
+
+.jamSite {
+  overflow: hidden; }
+
+.shadowBOX {
+  margin-top: 30%;
+  background: rgba(0, 0, 0, 0.6);
+  padding-bottom: 10px; }
+
+.aboutMebackground {
+  width: 100%;
+  padding: 0;
+  height: 100vh;
+  background-image: url("../images/aboutmeIMG.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.aboutMe {
+  padding-top: 50px; }
+
+.poemCenter {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.onlineCoachbackground {
+  width: 100%;
+  padding: 0;
+  height: 100vh;
+  background-image: url("../images/onlineCoachIMG2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.tablist {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.footer {
+  background-color: #166E53; }
+
+.footerNav {
+  text-align: center;
+  margin-top: 30px;
+  color: white; }
+
+.JTLogo {
+  margin: 0px auto;
+  display: block;
+  height: 150px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  -webkit-filter: #010101; }
+
+.JTLogoNav {
+  margin: 0px auto;
+  display: block;
+  height: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 .logo {
   font-family: 'Abril Fatface', cursive;
@@ -95,7 +187,7 @@ input {
 
 .nav {
   z-index: 10;
-  position: fixed;
+  position: absolute;
   font-family: 'Raleway', sans-serif;
   background: white;
   top: 0;
@@ -111,11 +203,11 @@ input {
 
 .joker {
   text-align: center;
-  padding-top: 20px; }
+  padding-top: 25px; }
 
 .socialMedia {
   font-size: 25px;
-  padding-top: 25px;
+  padding-top: 32px;
   float: right;
   padding-right: 10px;
   cursor: pointer;
@@ -123,8 +215,9 @@ input {
   color: black; }
 
 .socialMedia:hover {
-  color: #166E53;
+  color: #E178D6;
   transition: all .6s ease;
+  cursor: pointer;
   text-decoration: none; }
 
 .headroom {

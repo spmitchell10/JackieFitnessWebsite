@@ -19,6 +19,14 @@
                 })
             })();
 
+            $('.jamSite').mouseover(function() {
+                  $('.jamPop').removeClass("jamPopHidden");
+                });
+
+            $('.jamSite').mouseout(function() {
+                  $('.jamPop').addClass("jamPopHidden");
+                });
+
             $scope.isActive = function(route) {
                 return route === $location.path();
             }
@@ -28,8 +36,8 @@
             $(document).ready(function() {
                 var $win = $(window);
 
-                $('div.background').each(function() {
-                    var scroll_speed = 3;
+                $('div.background, div.aboutMebackground, div.onlineCoachbackground').each(function() {
+                    var scroll_speed = 2;
                     var $this = $(this);
                     $(window).scroll(function() {
                         var bgScroll = -(($win.scrollTop() - $this.offset().top) / scroll_speed);
