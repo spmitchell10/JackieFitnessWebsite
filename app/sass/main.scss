@@ -10,6 +10,10 @@ body {
   margin-right: 0;
 }
 
+.content{
+  min-height: calc(100vh - 80px);
+}
+
 
 // Home Page ----------------------------------------------------------
 .homeBG {
@@ -180,8 +184,14 @@ input{
 
 }
 
+.myStory{
+  font-family: 'Playfair Display SC', serif;
+}
+
 .poemCenter{
+  border-top: 1px solid black;
   text-align: center;
+  margin-top: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -204,6 +214,53 @@ input{
   padding-bottom: 50px;
 }
 
+//Contact Page ----------------------------------------------------------
+
+.contactForm{
+  padding-top: 150px;
+  color: rgba(22, 110, 83, 1);
+}
+
+.phone, a{
+  display: inline-block;
+  text-decoration: none;
+  color: rgba(22, 110, 83, 1);
+}
+.phoneNumber{
+  color: rgba(22, 110, 83, 1);
+  display: inline-block;
+  padding-top: 20px;
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    color: #E178D6;
+  }
+}
+.fa-phone{
+  padding-left: 30px;
+}
+
+.formsCON{
+  padding-top: 20px;
+  padding-right: 0;
+  padding-left: 0;
+  input, textarea{
+    opacity: .6;
+  }
+}
+
+.CONbtn{
+  margin-top: 10px;
+  float: right;
+  background: rgba(22, 110, 83, 1);
+  margin-bottom: 20px;
+}
+
+
+.form-control{
+  padding-bottom: 9px;
+}
 
 //Footer ----------------------------------------------------------
 
@@ -326,7 +383,7 @@ input{
     font-size: 25px;
     padding-top: 32px;
     float: right;
-    padding-right: 10px;
+    padding-left: 5px;
     cursor: pointer;
     text-decoration: none;
     color: black;

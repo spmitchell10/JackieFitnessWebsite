@@ -8,6 +8,9 @@ body {
 .row {
   margin-right: 0; }
 
+.content {
+  min-height: calc(100vh - 80px); }
+
 .homeBG {
   padding: 0; }
 
@@ -142,8 +145,13 @@ input {
 .aboutMe {
   padding-top: 50px; }
 
+.myStory {
+  font-family: 'Playfair Display SC', serif; }
+
 .poemCenter {
+  border-top: 1px solid black;
   text-align: center;
+  margin-top: 20px;
   padding-top: 20px;
   padding-bottom: 20px; }
 
@@ -160,6 +168,43 @@ input {
 .tablist {
   padding-top: 50px;
   padding-bottom: 50px; }
+
+.contactForm {
+  padding-top: 150px;
+  color: #166e53; }
+
+.phone, a {
+  display: inline-block;
+  text-decoration: none;
+  color: #166e53; }
+
+.phoneNumber {
+  color: #166e53;
+  display: inline-block;
+  padding-top: 20px; }
+  .phoneNumber a {
+    text-decoration: none; }
+  .phoneNumber a:hover {
+    color: #E178D6; }
+
+.fa-phone {
+  padding-left: 30px; }
+
+.formsCON {
+  padding-top: 20px;
+  padding-right: 0;
+  padding-left: 0; }
+  .formsCON input, .formsCON textarea {
+    opacity: .6; }
+
+.CONbtn {
+  margin-top: 10px;
+  float: right;
+  background: #166e53;
+  margin-bottom: 20px; }
+
+.form-control {
+  padding-bottom: 9px; }
 
 .footer {
   background-color: #166E53; }
@@ -248,7 +293,7 @@ input {
   font-size: 25px;
   padding-top: 32px;
   float: right;
-  padding-right: 10px;
+  padding-left: 5px;
   cursor: pointer;
   text-decoration: none;
   color: black; }
