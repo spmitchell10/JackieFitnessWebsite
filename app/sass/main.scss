@@ -419,7 +419,7 @@ $bar-spacing: 8px;
 
 .hamburgerMenu {
   z-index: 9999;
-  position: fixed;
+  position: absolute;
 
   top: 0;
   right: 0;
