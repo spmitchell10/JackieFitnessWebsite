@@ -19,10 +19,8 @@ body {
   padding: 0;
   height: 100vh;
   background-image: url("../images/frontIMG2.JPG");
-  background-attachment: fixed;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; }
+  background-position: center; }
 
 .signUP {
   background: rgba(22, 110, 83, 0.5);
