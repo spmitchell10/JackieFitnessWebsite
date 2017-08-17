@@ -6,9 +6,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.row {
-  margin-right: 0;
-}
+
 
 .content{
   min-height: calc(100vh - 80px);
@@ -16,10 +14,7 @@ body {
 
 
 // Home Page ----------------------------------------------------------
-.homeBG {
-    
-    padding: 0;
-}
+
 
 .background{
     width: 100%;
@@ -63,7 +58,7 @@ input{
 }
 
 .noPadding{
-  padding-right: 0;
+ 
 }
 
 .background2{
@@ -204,7 +199,7 @@ input{
 //Online Coaching Page ----------------------------------------------------------
 
 .onlineCoachbackground{
-    width: auto;
+    width: 100%;
     padding: 0;
     height: 100vh; 
     background-image: url("../images/onlineCoachIMG2.jpg");
@@ -271,6 +266,7 @@ input{
 
 .footer{
   background-color: #166E53;
+
 }
 
 .footerNav{
@@ -304,6 +300,21 @@ input{
 
 .footerMenu{
   cursor: pointer;
+}
+
+.SPM{
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+  h5{
+    text-decoration: none;
+    color: white;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
 }
 
 

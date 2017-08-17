@@ -5,14 +5,8 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: 'Roboto', sans-serif; }
 
-.row {
-  margin-right: 0; }
-
 .content {
   min-height: calc(100vh - 80px); }
-
-.homeBG {
-  padding: 0; }
 
 .background {
   width: 100%;
@@ -45,9 +39,6 @@ input {
     padding-bottom: 20px;
     margin-top: 40px;
     width: 100%; } }
-
-.noPadding {
-  padding-right: 0; }
 
 .background2 {
   height: 800px;
@@ -156,7 +147,7 @@ input {
   padding-bottom: 20px; }
 
 .onlineCoachbackground {
-  width: auto;
+  width: 100%;
   padding: 0;
   height: 100vh;
   background-image: url("../images/onlineCoachIMG2.jpg");
@@ -233,6 +224,18 @@ input {
 
 .footerMenu {
   cursor: pointer; }
+
+.SPM {
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0; }
+  .SPM h5 {
+    text-decoration: none;
+    color: white; }
+  .SPM a {
+    text-decoration: none;
+    color: white; }
 
 .navMenu:hover {
   transition: all .4s ease; }
