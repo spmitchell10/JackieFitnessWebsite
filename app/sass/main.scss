@@ -204,11 +204,11 @@ input{
 //Online Coaching Page ----------------------------------------------------------
 
 .onlineCoachbackground{
-    width: 100%;
+    width: auto;
     padding: 0;
     height: 100vh; 
     background-image: url("../images/onlineCoachIMG2.jpg");
-   
+    
     background-size: cover;
     background-position: center;
   
@@ -399,6 +399,12 @@ input{
     transition: all .6s ease;
     cursor: pointer;
     text-decoration: none;
+}
+
+.activeMini{
+  h4{
+    color: #4ECDC4;
+  }
 }
 
 .headroom {

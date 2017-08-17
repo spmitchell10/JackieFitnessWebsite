@@ -76,6 +76,7 @@ input {
 
 .trainWJT {
   color: white;
+  padding: 5px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -138,10 +139,8 @@ input {
   padding: 0;
   height: 100vh;
   background-image: url("../images/aboutmeIMG.jpg");
-  background-attachment: fixed;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; }
+  background-position: center; }
 
 .aboutMe {
   padding-top: 50px; }
@@ -157,14 +156,12 @@ input {
   padding-bottom: 20px; }
 
 .onlineCoachbackground {
-  width: 100%;
+  width: auto;
   padding: 0;
   height: 100vh;
   background-image: url("../images/onlineCoachIMG2.jpg");
-  background-attachment: fixed;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; }
+  background-position: center; }
 
 .tablist {
   padding-top: 50px;
@@ -304,6 +301,9 @@ input {
   transition: all .6s ease;
   cursor: pointer;
   text-decoration: none; }
+
+.activeMini h4 {
+  color: #4ECDC4; }
 
 .headroom {
   will-change: transform;
