@@ -37,7 +37,7 @@
                 var $win = $(window);
 
                 $('div.background, div.aboutMebackground, div.onlineCoachbackground').each(function() {
-                    var scroll_speed = 9;
+                    var scroll_speed = 3;
                     var $this = $(this);
                     $(window).scroll(function() {
                         var bgScroll = -(($win.scrollTop() - $this.offset().top) / scroll_speed);

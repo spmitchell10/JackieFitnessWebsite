@@ -16,7 +16,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: fixed; }
+  background-attachment: fixed; }
 
 .signUP {
   background: rgba(22, 110, 83, 0.5);
