@@ -33,19 +33,19 @@
 
            
 
-            // $(document).ready(function() {
-            //     var $win = $(window);
+            $(document).ready(function() {
+                var $win = $(window);
 
-            //     $('div.background, div.aboutMebackground, div.onlineCoachbackground').each(function() {
-            //         var scroll_speed = 2;
-            //         var $this = $(this);
-            //         $(window).scroll(function() {
-            //             var bgScroll = -(($win.scrollTop() - $this.offset().top) / scroll_speed);
-            //             var bgPosition = 'center ' + bgScroll + 'px';
-            //             $this.css({ backgroundPosition: bgPosition });
-            //         });
-            //     });
-            // })
+                $('div.background, div.aboutMebackground, div.onlineCoachbackground').each(function() {
+                    var scroll_speed = 9;
+                    var $this = $(this);
+                    $(window).scroll(function() {
+                        var bgScroll = -(($win.scrollTop() - $this.offset().top) / scroll_speed);
+                        var bgPosition = 'center ' + bgScroll + 'px';
+                        $this.css({ backgroundPosition: bgPosition });
+                    });
+                });
+            })
 
 
             $(document).scroll(function() {

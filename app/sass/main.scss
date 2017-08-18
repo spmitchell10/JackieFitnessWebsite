@@ -21,9 +21,10 @@ body {
     padding: 0;
     height: 100vh; 
     background-image: url("../images/frontIMG2.JPG");
-    
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-image: fixed;
     
 }
 
@@ -315,9 +316,14 @@ input{
     text-decoration: none;
     color: white;
   }
+
 }
 
-
+.SPMHover:hover{
+    color: #E178D6;
+        transition: all .4s ease;
+        cursor: pointer;
+  }
 
 
 
